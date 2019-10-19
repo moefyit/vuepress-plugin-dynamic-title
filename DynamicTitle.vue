@@ -18,15 +18,15 @@
       }
     },
     mounted() {
-      this.originTitle = document.title;
+      this.originTitle = document.title
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
-          this.hidden();
+          this.hidden()
         }
         else {
-          this.visible();
+          this.visible()
         }
-      });
+      })
     },
     methods: {
       hidden() {
@@ -37,19 +37,19 @@
             elm.setAttribute('rel', 'icon')
             document.head.appendChild(elm)
           }
-          elm.setAttribute('href', this.config.hideIcon);
+          elm.setAttribute('href', this.config.hideIcon)
         }
-        document.title = this.config.hideText;
-        clearTimeout(this.recoverTimeout);
+        document.title = this.config.hideText
+        clearTimeout(this.recoverTimeout)
       },
       visible() {
         if (this.config.showIcon !== '') {
-          document.querySelector("link[rel=icon]").setAttribute('href', this.config.showIcon);
+          document.querySelector("link[rel=icon]").setAttribute('href', this.config.showIcon)
         }
-        document.title = this.config.showText + this.originTitle;
+        document.title = this.config.showText + this.originTitle
         this.recoverTimeout = setTimeout(() => {
-          document.title = this.originTitle;
-        }, this.config.recoverTime);
+          document.title = this.originTitle
+        }, this.config.recoverTime)
       }
     }
   }
