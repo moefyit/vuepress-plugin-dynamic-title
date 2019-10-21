@@ -18,7 +18,6 @@
       }
     },
     mounted() {
-      this.originTitle = document.title
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
           this.hidden()
@@ -30,6 +29,7 @@
     },
     methods: {
       hidden() {
+        this.originTitle = document.title
         if (this.config.hideIcon !== '') {
           let elm = document.querySelector("link[rel=icon]")
           if (elm === null) {
@@ -50,6 +50,13 @@
         this.recoverTimeout = setTimeout(() => {
           document.title = this.originTitle
         }, this.config.recoverTime)
+      }
+    },
+    watch: {
+      '$route' (to, from) {
+        if (to.path !== from.path) {
+          clearTimeout(this.recoverTimeout)
+        }
       }
     }
   }
