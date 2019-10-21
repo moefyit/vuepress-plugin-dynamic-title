@@ -18,6 +18,9 @@
       }
     },
     mounted() {
+      if (this.config.showIcon !== '') {
+        this.getIconElm().setAttribute('href', this.config.showIcon)
+      }
       document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
           this.hidden()
@@ -31,25 +34,28 @@
       hidden() {
         this.originTitle = document.title
         if (this.config.hideIcon !== '') {
-          let elm = document.querySelector("link[rel=icon]")
-          if (elm === null) {
-            elm = document.createElement("link")
-            elm.setAttribute('rel', 'icon')
-            document.head.appendChild(elm)
-          }
-          elm.setAttribute('href', this.config.hideIcon)
+          this.getIconElm().setAttribute('href', this.config.hideIcon)
         }
         document.title = this.config.hideText
         clearTimeout(this.recoverTimeout)
       },
       visible() {
         if (this.config.showIcon !== '') {
-          document.querySelector("link[rel=icon]").setAttribute('href', this.config.showIcon)
+          this.getIconElm().setAttribute('href', this.config.showIcon)
         }
         document.title = this.config.showText + this.originTitle
         this.recoverTimeout = setTimeout(() => {
           document.title = this.originTitle
         }, this.config.recoverTime)
+      },
+      getIconElm() {
+        let elm = document.querySelector("link[rel=icon]")
+        if (elm === null) {
+          elm = document.createElement("link")
+          elm.setAttribute('rel', 'icon')
+          document.head.appendChild(elm)
+        }
+        return elm
       }
     },
     watch: {

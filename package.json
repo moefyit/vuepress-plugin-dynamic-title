@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-dynamic-title",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Add a dynamic title in your vuepress!",
   "main": "index.js",
   "repository": {
