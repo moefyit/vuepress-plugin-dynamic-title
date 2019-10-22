@@ -18,6 +18,7 @@
       }
     },
     mounted() {
+      this.originTitle = document.title
       if (this.config.showIcon !== '') {
         this.getIconElm().setAttribute('href', this.config.showIcon)
       }
@@ -32,7 +33,6 @@
     },
     methods: {
       hidden() {
-        this.originTitle = document.title
         if (this.config.hideIcon !== '') {
           this.getIconElm().setAttribute('href', this.config.hideIcon)
         }
@@ -61,6 +61,7 @@
     watch: {
       '$route' (to, from) {
         if (to.path !== from.path) {
+          this.originTitle = document.title
           clearTimeout(this.recoverTimeout)
         }
       }
