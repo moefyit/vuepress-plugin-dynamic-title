@@ -21,6 +21,6 @@ module.exports = (options = {}, context) => ({
     }
   },
 
-  enhanceAppFiles: resolve(__dirname, "enhanceAppFile.js"),
+  enhanceAppFiles: resolve(__dirname, "./bin/enhanceAppFile.js"),
   globalUIComponents: "DynamicTitle"
 });

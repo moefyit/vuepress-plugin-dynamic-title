@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SigureMo/vuepress-plugin-dynamic-title.git"
+    "url": "git+ssh://git@github.com/moefyit/vuepress-plugin-dynamic-title.git"
   },
   "keywords": [
     "vuepress",
@@ -14,17 +14,16 @@
   ],
   "files": [
     "index.js",
-    "DynamicTitle.vue",
-    "enhanceAppFile.js",
+    "bin/",
     "package.json",
     "README.md"
   ],
   "author": "SigureMo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SigureMo/vuepress-plugin-dynamic-title/issues"
+    "url": "https://github.com/moefyit/vuepress-plugin-dynamic-title/issues"
   },
-  "homepage": "https://github.com/SigureMo/vuepress-plugin-dynamic-title#readme",
+  "homepage": "https://github.com/moefyit/vuepress-plugin-dynamic-title#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

@@ -2,14 +2,14 @@
 
 <p align="center">
    <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-dynamic-title.svg"></a>
-   <a href="https://github.com/SigureMo/vuepress-plugin-dynamic-title/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/SigureMo/vuepress-plugin-dynamic-title"></a>
+   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/moefyit/vuepress-plugin-dynamic-title"></a>
    <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-dynamic-title.svg"></a>
    <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-dynamic-title.svg"></a>
-   <a href="https://github.com/SigureMo/vuepress-plugin-dynamic-title/blob/master/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/SigureMo/vuepress-plugin-dynamic-title"></a>
+   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/blob/master/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/moefyit/vuepress-plugin-dynamic-title"></a>
 </p>
 
-- Website: [www.sigure.xyz/vuepress-lovely-plugins/](https://www.sigure.xyz/vuepress-plugin-lovely-plugins/)
-- MyBlog: [www.sigure.xyz](https://www.sigure.xyz/)
+- Document: [meofy-vuepress](https://moefyit.github.io/meofy-vuepress/)
+- LiveDemo: [www.sigure.xyz](https://www.sigure.xyz/)
 
 ## Install
 
