@@ -1,4 +1,6 @@
-# vuepress-plugin-dynamic-title
+# vuepress-plugin-dynamic-title <GitHubLink repo="moefyit/vuepress-plugin-dynamic-title"/>
+
+:eyes: Add a dynamic title in your vuepress!
 
 <p align="center">
    <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-dynamic-title.svg"></a>
