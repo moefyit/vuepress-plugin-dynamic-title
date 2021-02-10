@@ -1,15 +1,13 @@
-const {
-  resolve
-} = require('path')
+const { resolve } = require('path')
 
 module.exports = (options = {}, context) => ({
   define() {
     const {
-      showIcon = "",
-      showText = "(/≧▽≦/)咦！又好了！",
-      hideIcon = "",
-      hideText = "(●—●)喔哟，崩溃啦！",
-      recoverTime = 2000
+      showIcon = '',
+      showText = '(/≧▽≦/)咦！又好了！',
+      hideIcon = '',
+      hideText = '(●—●)喔哟，崩溃啦！',
+      recoverTime = 2000,
     } = options
 
     return {
@@ -17,10 +15,10 @@ module.exports = (options = {}, context) => ({
       SHOW_TEXT: showText,
       HIDE_ICON: hideIcon,
       HIDE_TEXT: hideText,
-      RECOVER_TIME: recoverTime
+      RECOVER_TIME: recoverTime,
     }
   },
 
-  enhanceAppFiles: resolve(__dirname, "./bin/enhanceAppFile.js"),
-  globalUIComponents: "DynamicTitle"
-});
+  enhanceAppFiles: resolve(__dirname, './bin/enhanceAppFile.js'),
+  globalUIComponents: 'DynamicTitle',
+})

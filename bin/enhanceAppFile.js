@@ -1,7 +1,5 @@
-import DynamicTitle from "./DynamicTitle.vue";
+import DynamicTitle from './DynamicTitle.vue'
 
-export default ({
-  Vue
-}) => {
-  Vue.component("DynamicTitle", DynamicTitle);
-};
+export default ({ Vue }) => {
+  Vue.component('DynamicTitle', DynamicTitle)
+}

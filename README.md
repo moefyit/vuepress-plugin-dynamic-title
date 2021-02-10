@@ -10,12 +10,12 @@
    <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/blob/master/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/moefyit/vuepress-plugin-dynamic-title"></a>
 </p>
 
-- Document: [moefy-vuepress](https://moefyit.github.io/moefy-vuepress/)
-- LiveDemo: [notev](https://www.sigure.xyz/)
+-  Document: [moefy-vuepress](https://moefyit.github.io/moefy-vuepress/)
+-  LiveDemo: [notev](https://www.sigure.xyz/)
 
 ## Install
 
-``` bash
+```bash
 yarn add vuepress-plugin-dynamic-title -D
 # or use npm
 npm i vuepress-plugin-dynamic-title -D
@@ -23,31 +23,31 @@ npm i vuepress-plugin-dynamic-title -D
 
 ## Usage
 
-``` javascript
+```javascript
 module.exports = {
-  plugins: ['dynamic-title']
+   plugins: ['dynamic-title'],
 }
 ```
 
 ## Options
 
-``` js
+```js
 module.exports = {
-  plugins: [
-    [
-      "dynamic-title",
-      {
-        showIcon: "/favicon.ico",
-        showText: "(/≧▽≦/)咦！又好了！",
-        hideIcon: "/failure.ico",
-        hideText: "(●—●)喔哟，崩溃啦！",
-        recoverTime: 2000
-      }
-    ]
-  ]
+   plugins: [
+      [
+         'dynamic-title',
+         {
+            showIcon: '/favicon.ico',
+            showText: '(/≧▽≦/)咦！又好了！',
+            hideIcon: '/failure.ico',
+            hideText: '(●—●)喔哟，崩溃啦！',
+            recoverTime: 2000,
+         },
+      ],
+   ],
 }
 ```
 
 ## Thanks
 
-- [hexo-theme-sagiri](https://github.com/DIYgod/diygod.me/blob/master/themes/sagiri/src/title.js)
+-  [hexo-theme-sagiri](https://github.com/DIYgod/diygod.me/blob/master/themes/sagiri/src/title.js)
