@@ -3,11 +3,11 @@
 :eyes: Add a dynamic title in your vuepress!
 
 <p align="center">
-   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-dynamic-title.svg"></a>
-   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/moefyit/vuepress-plugin-dynamic-title"></a>
-   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-dynamic-title.svg"></a>
-   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-dynamic-title.svg"></a>
-   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/moefyit/vuepress-plugin-dynamic-title"></a>
+   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-dynamic-title.svg?style=flat-square"></a>
+   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/moefyit/vuepress-plugin-dynamic-title?style=flat-square"></a>
+   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-dynamic-title.svg?style=flat-square"></a>
+   <a href="https://www.npmjs.com/package/vuepress-plugin-dynamic-title" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-dynamic-title.svg?style=flat-square"></a>
+   <a href="https://github.com/moefyit/vuepress-plugin-dynamic-title/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/moefyit/vuepress-plugin-dynamic-title?style=flat-square"></a>
 </p>
 
 -  Document: [moefy-vuepress](https://moefyit.github.io/moefy-vuepress/)
